@@ -1,0 +1,115 @@
+body {
+    font-size: 0.85em;
+    font-family: Verdana, sans-serif;
+    background-color: #3a3acc;
+    color: #ebeef4;
+    width: 65%;
+}
+
+
+p {
+    color: #3b65d3;
+    text-align: justify;    
+}
+
+h1, h2 {
+    font-family: Courier;
+    color: #c0c4ce;
+}
+
+h1 { 
+    font-size: 4em;
+    padding-left: 70px;
+    margin-bottom: 0px;    
+}
+
+h2 {
+    padding-left: 400px;
+    margin-top: 0px;
+    font-size: 2em;
+}
+
+h3 {
+    text-align: center;
+    color: #0642db;
+    font-size: 1.3em;
+}
+
+a:link {
+    color: #15a540;
+}
+
+a:hover, a:active {
+    color: #ce0c26;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #db0d81; 
+}
+
+header {
+    padding-left: 100px;
+    background-color: #0066ff;
+    border: 2px solid #dddddd;
+}
+
+footer {
+    position: fixed;
+    bottom: 120px;
+    right: 175px;
+    background: #ebeef4;
+    padding: 10px;
+}
+
+footer a:link {
+    color: #0066ff;
+}
+
+#zen-intro {
+    padding: 5px 0px 30px 0px;
+}
+
+#zen-summary {
+    font-size: 0.75em;
+    font-style: italic;
+    position: fixed;
+    left: 1100px;
+    margin-right: 40px;
+}
+
+#zen-preamble {
+    position: fixed;
+    top: 275px;
+    left: 1100px;
+    margin-right: 40px;
+}
+
+#zen-preamble p, #zen-preamble h3 {
+    color: #ebeef4;
+}
+
+#zen-summary p {
+    color: #ebeef4;
+}
+
+#zen-supporting {
+    margin-top: -20px;
+    border: 2px solid #0642db;    
+    background: #ebeef4;
+    padding: 0px 20px;
+}
+
+#design-selection {
+    padding-left: 100px;
+    border: 2px solid #ebeef4;
+    margin-top: 10px;    
+}
+#design-selection a {
+    color: #1be554;
+}
+
+.select {
+    color: #ebeef4;
+    text-align: left;
+}
